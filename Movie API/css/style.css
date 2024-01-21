@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.d-flex{
+    display: flex;
+}
+.row{
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.justify-content-end{
+    justify-content: end; 
+}
+.align-item-center{
+    align-items: center;
+}
+.w-1{
+    width: 100%;
+}
+.w-2{
+    width: 50%;
+}
+.w-30{
+    width: 28%;
+}
+.w-70{
+    width: 68%;
+}
+/* section  */
+section{
+    margin-top: 30px;
+}
+.mian-body{
+    position: relative;
+    height: 70vh;
+    padding: 40px;
+}
+#search{
+    margin: 20px 0;
+    width: 100%;
+    border-radius:10px ;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+.searchBar{
+    position: relative;
+}
+#find{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+}
+.bg-color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right ,rgba(0, 0, 0, 0.607),rgba(0, 0, 0, 0.982),transparent);
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.content{
+    padding: 40px 60px;
+}
+.movieData{
+    height: 100%;
+}
+.logo{
+    padding: 10px 0 10px 10px;
+    margin: 10px 0;
+    color: red;
+    background:linear-gradient(to right,rgba(255, 0, 0, 0.351),transparent,transparent,transparent) ;
+    border-left: 2px solid red;
+}
+h1{
+    font-weight: 200;
+    font-size: 40px;
+}
+p{
+    font-weight: 300;
+    font-size: 15px;
+}
+.movieData div{
+    margin: 10px 0;
+}
+.movieData span{
+    color: red;
+}
+.playButton{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.margin-left{
+    margin-left: 10px;
+}
+
+.mainClass{
+    display: none;
+}
+.noResult{
+    display: block;
+}
+.gif{
+    height: 60vh;
+}
+h2{
+    margin-top: 20px;
+}
